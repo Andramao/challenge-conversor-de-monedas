@@ -2,7 +2,7 @@
 💰 Conversor de Monedas Java - Challenge Alura
 Este proyecto es una aplicación de consola en Java desarrollada como parte del Challenge ONE de Alura Latam, que permite a los usuarios convertir cantidades entre 6 pares de monedas utilizando tasas de cambio en tiempo real proporcionadas por la API de ExchangeRate-API.
 
-✨ Características
+__✨ Características__  
 Tasas en Tiempo Real: Utiliza la API de exchangerate-api.com para obtener la tasa de conversión más reciente.
 
 6 Pares de Conversión: Ofrece un menú de las conversiones más comunes entre monedas latinoamericanas y globales (USD, EUR, COP, MXN).
@@ -15,14 +15,14 @@ Salida de Archivo: Genera un archivo JSON por cada conversión realizada, incluy
 
 Manejo de Errores: Incluye manejo de excepciones para errores de usuario y fallos de conexión a la API.
 
-⚙️ Tecnologías Utilizadas
+__⚙️ Tecnologías Utilizadas__  
 Lenguaje: Java 17
 
 Comunicación HTTP: java.net.http.HttpClient
 
 JSON: Gson (Google Library)
 
-🚀 Cómo Empezar
+__🚀 Cómo Empezar__  
 1. Requisitos Previos
 Asegúrate de tener instalado:
 
@@ -45,24 +45,19 @@ private static final String API_KEY = "TU_CLAVE_API_AQUI"; // Ejemplo: "762128ef
 3. Agregar Dependencia de Gson
 Agrega la dependencia de Gson a tu proyecto.
 
-📋 Guía de Uso
+__📋 Guía de Uso__  
 Para iniciar el conversor, simplemente ejecuta el método main ubicado en la clase ConversorApp.java.
 
 Menú Principal
 Al iniciar la aplicación, se mostrará el siguiente menú:
 
-**********************************************
-Este es su conversor de Monedas
-                
-1. Dolar =>> Peso Colombiano
-2. Peso Colombiano =>> Dolar
-3. Euro =>> Peso Colombiano
-4. Peso Colombiano =>> Euro
-5. Peso Mexicano =>> Peso Colombiano
-6. Peso Colombiano =>> Peso Mexicano
-7. Salir
-**********************************************
-👉 Ingrese el número de la opción deseada:
+<div align="center"><img width="780" height="406" alt="Captura de pantalla 2025-11-13 215614" src="https://github.com/user-attachments/assets/e483ee89-3a17-4251-a52d-c833af6ac023" />
+ <br>
+</div>  
+  <br>
+
+
+__👉 Ingrese el número de la opción deseada:__  
 Pasos
 Selección: Ingresa el número de la conversión que deseas realizar (del 1 al 6).
 
@@ -82,8 +77,9 @@ JSON
   "conversion_rate": 4200.00,
   "conversion_result": 1050000.00,
   "cantidad_original_ingresada": "250.0"
-}
-🐛 Manejo de Errores Comunes
+} 
+
+__🐛 Manejo de Errores Comunes__  
 Error al obtener la tasa. Código de estado: 404: La URL de la API es incorrecta. Verifica:
 
 Que la API_KEY en ConversorApp.java sea correcta.

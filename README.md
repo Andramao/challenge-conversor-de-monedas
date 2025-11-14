@@ -87,3 +87,16 @@ Que la API_KEY en ConversorApp.java sea correcta.
 Que el método obtenerConversionJson utilice Locale.US para el formato decimal, ya que la API no acepta comas (,) como separador decimal.
 
 ❌ Entrada no válida. Por favor, ingrese un número.: El usuario ingresó texto en lugar de un número en el menú o al ingresar la cantidad.
+
+<h3 align="center"> Autores ✒️</h3>
+<p align="center">Alexander Murillo - Version final1 2025 - (https://github.com/Andramao)</p>
+<br>
+
+<h3 align="center">❤️Agradecimientos a: </h3> 
+<div align="center">
+  <p >#Alura Latam.</p>
+  <p >#Oracle Next Education.</p>
+</div>
+
+<div align="center"><img width="170" height="60" alt="image" src="https://github.com/user-attachments/assets/3c16f5d9-d26b-40d6-bbd9-04abebc96238" /> <img width="80" height="54" alt="image" src="https://github.com/user-attachments/assets/2fc68741-4e16-4f1c-b438-5de3cedad13d" /></div>
+
